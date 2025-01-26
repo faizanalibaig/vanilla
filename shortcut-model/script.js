@@ -5,14 +5,15 @@ const body = document.querySelector(".modal");
 const notification = document.querySelector(".alert-hello");
 
 document.addEventListener("keydown", function(event) {
-  if(shortcut && event.key === "c" || shortcut && event.key === "C") {
+  const shortcutkeys = event.key.toLowerCase();
+  if(shortcut && shortcutkeys === "c") {
     body.style.backgroundColor = "#60b347";
     console.log("djnclj")
 
-  }else if(shortcut && event.key === "b" || shortcut && event.key === "B") {
+  }else if(shortcut && shortcutkeys === "b") {
     body.style.backgroundColor = "#222";
 
-  }else if(shortcut && event.key === "q" || shortcut && event.key === "Q") {
+  }else if(shortcut && shortcutkeys === "q") {
     if(notification.classList.contains('hidden')){
       notification.classList.remove("hidden");
     }else{
