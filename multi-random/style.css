@@ -22,6 +22,8 @@ header {
   padding: 30px 40px;
   color: white;
   text-shadow: 1px 1px 1px black;
+  width: 100%;
+  position: fixed;
 }
 
 .main-header {
@@ -29,6 +31,7 @@ header {
   color: black;
   text-shadow: none;
   /* text-shadow: 1px 1px 1px white; */
+  /* position: fixed; */
 }
 
 header > h1 {
