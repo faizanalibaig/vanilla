@@ -72,5 +72,7 @@ main > section {
 }
 
 div {
-  height: 5000px;
+  height: 500px;
+  padding: 20px 100px;
+  margin-bottom: 500px;
 }
