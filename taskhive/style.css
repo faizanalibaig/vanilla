@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 45px;
+}
+
+.header {
+  background-color: rgb(76, 175, 80);
+  color: white;
+}
+
+.header-section > .header-title {
+  font-size: 1rem;
+}
+
+.header-section > .theme {
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.welcome-content {
+  height: 580px;
+  padding: 20px 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-section {
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.started-btn {
+  margin-top: 20px;
+  padding: 15px 30px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.what-we-offer {
+  margin-top: 40px;
+  /* background-color: red; */
+  height: 500px;
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.offer-blocks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 100%;
+  gap: 20px;
+}
+.offer-blocks > div {
+  padding: 50px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: auto;
+  background-color: #4caf50;
+  color: white;
+}
+
+.offer-blocks > div > p {
+  font-size: 0.8rem;
+}
+
+.footer-section {
+  padding: 20px 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-section > p {
+  font-size: 0.8rem;
+}
