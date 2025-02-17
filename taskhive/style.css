@@ -135,6 +135,16 @@ body {
   border: 1px solid #ccc;
 }
 
+.task-title {
+  margin-top: 20px;
+  padding: 10px;
+  width: 800px;
+  height: 50px;
+  resize: none;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
 .create-task-btn {
   margin-top: 20px;
   padding: 15px 30px;
@@ -143,4 +153,16 @@ body {
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+.task-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.task-paragraph {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 20px;
 }
