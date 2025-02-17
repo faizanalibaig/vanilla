@@ -67,7 +67,7 @@ body {
 
 .what-we-offer {
   margin-top: 40px;
-  /* background-color: red; */
+  margin-bottom: 100px;
   height: 500px;
   padding: 15px 30px;
   display: flex;
@@ -146,8 +146,9 @@ body {
 }
 
 .create-task-btn {
+  font-family: 'Press Start 2P', sans-serif;
   margin-top: 20px;
-  padding: 15px 30px;
+  padding: 25px 30px;
   border: none;
   background-color: #4caf50;
   color: white;
@@ -166,3 +167,14 @@ body {
   margin-bottom: 20px;
   line-height: 20px;
 }
+
+/* @media screen and (max-width: 768px) {
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    min-width: auto;
+    position: fixed;
+  }
+} */
