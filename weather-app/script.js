@@ -10,5 +10,5 @@ request.send();
 request.addEventListener("load", () => {
   const data = JSON.parse(request.responseText);
 
-return 0;
+return data;
 });
